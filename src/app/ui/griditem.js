@@ -13,10 +13,14 @@ export default function GridItem({ item }) {
             <div>
               <div className="h-24 overflow-hidden">
               <h6 className="font-semibold text-gray-700">Description</h6>
-              <p className="text-gray-600 text-sm">{ item.text }</p>
+              <p className="text-gray-600 text-sm">{ truncate(item.text, 128) }</p>
             </div>
             </div>
           </div>
       </div>
     )
+}
+
+function truncate(str, n){
+    return (str.length > n) ? str.substr(0, n-1) + '...' : str;
 }

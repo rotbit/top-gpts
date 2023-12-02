@@ -5,7 +5,7 @@ export default function Footbar() {
             <div className="flex flex-row justify-between max-[767px]:flex-col max-[767px]:items-start">
             <div className="w-full max-w-[560px] max-[991px]:mr-4 max-[991px]:flex-initial max-[767px]:mr-0">
                 <h2 className="text-3xl font-semibold text-white md:text-5xl">
-                <span className="text-[#1353fe]">Find Top GPTs </span> We collect the best GPTs in the world.
+                <span className="text-[#1353fe]">Find Top GPTs </span> | We collect the best GPTs in the world.
                 </h2>
             </div>
             <div className="max-[991px]:ml-4 max-[991px]:flex-none max-[767px]:ml-0 max-[767px]:mt-8">

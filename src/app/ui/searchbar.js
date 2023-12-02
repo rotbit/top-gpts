@@ -17,7 +17,7 @@ export default function Searchbar() {
               </svg>
             </a>
           </div>
-          <input type="search" disabled className="w-full bg-white text-gray-700 border-2 border-blue-300 rounded-full py-3 pl-10 pr-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Feature Coming Soon..." />
+          <input id= "search" type="search" disabled className="w-full bg-white text-gray-700 border-2 border-blue-300 rounded-full py-3 pl-10 pr-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" placeholder="Feature Coming Soon..." />
         </div>
       </div>
   

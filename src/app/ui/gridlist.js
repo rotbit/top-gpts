@@ -1,20 +1,9 @@
 import { fetchNewestGPTs } from "@/app/lib/data";
 import GridItem from "@/app/ui/griditem";
-import { useState, useEffect } from "react";
+import React from "react";  
 
-
-export default function GridList() {
-    const [gridItems, setGridItems] = useState([]);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            const data = await fetchNewestGPTs();
-            setGridItems(data);
-        };
-
-        fetchData();
-    }, []);
-
+export default async function GridList() {
+    const gridItems = await fetchNewestGPTs();
     return (
         <div className="container mx-auto py-8 max-w-7xl">
             <p className="text-lg font-semibold text-gray-800 mb-4">Newest GPTs Today</p>

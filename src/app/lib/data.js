@@ -1,3 +1,17 @@
+export async function fetchCategories() {
+    const rsp = {
+        "code": 0,
+        "data": [
+            "Top GPTs",
+            "Newest",
+            "Random",
+            "Education",
+            "Writeling",
+        ]
+    }
+    return rsp.data;
+}
+
 export async function fetchNewestGPTs() {
     const rsp = {
         "code": 0,

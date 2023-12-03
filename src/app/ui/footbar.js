@@ -1,4 +1,3 @@
-import Image from "next/image"
 export default function Footbar() {
     return (
         <footer className="bg-black text-[#bcb9b9]">
@@ -11,7 +10,7 @@ export default function Footbar() {
             </div>
             <div className="max-[991px]:ml-4 max-[991px]:flex-none max-[767px]:ml-0 max-[767px]:mt-8">
                 <div className="mb-4 flex max-w-[272px] items-start justify-start">
-                <Image src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639973cbfd61dff0af234a64_Message.svg" alt="" className="mr-3 inline-block w-6" />
+                <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639973cbfd61dff0af234a64_Message.svg" alt="" className="mr-3 inline-block w-6" />
                 <p>pzbstu@gmail.com</p>
                 </div>
                 <div className="mb-4 flex max-w-[272px] items-start justify-start">

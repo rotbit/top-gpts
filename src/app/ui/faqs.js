@@ -15,7 +15,7 @@ export default function Faqs() {
               <a href="" className="absolute right-5 top-9">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="12" cy="12" r="12" fill="white"></circle>
-                  <path d="M7.04688 11.9999H16.9469" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M7.04688 11.9999H16.9469" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </a>
             </div>
@@ -24,8 +24,8 @@ export default function Faqs() {
               <a href="" className="absolute right-5 top-9">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="12" cy="12" r="12" fill="white"></circle>
-                  <path d="M7.05078 12H16.9508" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M12 7.05005V16.95" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M7.05078 12H16.9508" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M12 7.05005V16.95" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </a>
             </div>
@@ -34,8 +34,8 @@ export default function Faqs() {
               <a href="" className="absolute right-5 top-9">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="12" cy="12" r="12" fill="white"></circle>
-                  <path d="M7.05078 12H16.9508" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M12 7.05005V16.95" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M7.05078 12H16.9508" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M12 7.05005V16.95" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </a>
             </div>
@@ -46,8 +46,8 @@ export default function Faqs() {
               <a href="" className="absolute right-5 top-9">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="12" cy="12" r="12" fill="white"></circle>
-                  <path d="M7.05078 12H16.9508" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M12 7.05005V16.95" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M7.05078 12H16.9508" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M12 7.05005V16.95" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </a>
             </div>
@@ -56,8 +56,8 @@ export default function Faqs() {
               <a href="" className="absolute right-5 top-9">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="12" cy="12" r="12" fill="white"></circle>
-                  <path d="M7.05078 12H16.9508" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M12 7.05005V16.95" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M7.05078 12H16.9508" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M12 7.05005V16.95" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </a>
             </div>
@@ -66,8 +66,8 @@ export default function Faqs() {
               <a href="" className="absolute right-5 top-9">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="12" cy="12" r="12" fill="white"></circle>
-                  <path d="M7.05078 12H16.9508" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M12 7.05005V16.95" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M7.05078 12H16.9508" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                  <path d="M12 7.05005V16.95" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
               </a>
             </div>

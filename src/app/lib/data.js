@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
-
+import { cache } from 'react'
 const supabaseUrl = 'https://awycpgzkubjcbbkwomgv.supabase.co'
 const supabaseKey = process.env.SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
@@ -16,7 +16,7 @@ export async function fetchCategories() {
     return rsp.data;
 }
 
-export async function fetchNewestGPTs() { 
+export const fetchNewestGPTs = cache(async () => {
     const { data, error } = await supabase
     .from('gpts_info')
     .select('id, app_name, description, app_url, app_logo, author, update_at, category')
@@ -27,4 +27,4 @@ export async function fetchNewestGPTs() {
         return []
     }
     return data;
-}
+})

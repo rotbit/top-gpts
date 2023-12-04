@@ -4,8 +4,9 @@ import Footbar from './ui/footbar'
 import Navbar from './ui/navbar'
 import Category from './ui/category'
 import Faqs from './ui/faqs'
+import React from 'react';
 
-export default function Home() {
+export default async function Home() {
   return (
     <main>
       <Navbar />

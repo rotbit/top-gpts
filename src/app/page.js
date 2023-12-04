@@ -3,6 +3,7 @@ import GridList from './ui/gridlist'
 import Footbar from './ui/footbar'
 import Navbar from './ui/navbar'
 import Category from './ui/category'
+import Faqs from './ui/faqs'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Searchbar />
       <Category />
       <GridList />
+      <Faqs />
       <Footbar />
     </main>
   )

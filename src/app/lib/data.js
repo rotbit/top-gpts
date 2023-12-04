@@ -3,6 +3,7 @@ import { createClient } from '@supabase/supabase-js'
 const supabaseUrl = 'https://awycpgzkubjcbbkwomgv.supabase.co'
 const supabaseKey = process.env.SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
+const secretKey = process.env.SECRET_KEY
 
 export async function fetchCategories() {
     const rsp = {
@@ -24,8 +25,6 @@ export async function fetchNewestGPTs() {
     if (error) {
         console.log(error)
         return []
-    } else {
-        console.log(data)
     }
     return data;
 }

@@ -3,7 +3,6 @@ import { cache } from 'react'
 const supabaseUrl = 'https://awycpgzkubjcbbkwomgv.supabase.co'
 const supabaseKey = process.env.SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
-const secretKey = process.env.SECRET_KEY
 
 export async function fetchCategories() {
     const rsp = {

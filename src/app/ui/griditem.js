@@ -1,9 +1,9 @@
+'use client';
 import { encrypt } from "../lib/crypto";
 
 export default function GridItem({ item }) {
-  const showId = encrypt(item.id);
   return (
-    <a href={`/gpt/${(showId)}`}>
+    <a href={`/gpts/${(item.id)}`}>
       <div className="mb-6 gap-6 overflow-hidden rounded-2xl border border-solid border-[#7e7e7e] bg-white p-8 hover:scale-105 transition-transform">
         <div className="mb-4 flex flex-row">
           <img className="mr-4 inline-block h-16 w-16 object-cover rounded-full" src={item.app_logo || '/default-logo.jpg'} alt="App Logo" />

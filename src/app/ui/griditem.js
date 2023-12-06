@@ -1,9 +1,8 @@
 'use client';
-import { encrypt } from "../lib/crypto";
-
+import Link from "next/link";
 export default function GridItem({ item }) {
   return (
-    <a href={`/gpts/${(item.id)}`}>
+    <Link href={`/gpts/${(item.id)}`}>
       <div className="mb-6 gap-6 overflow-hidden rounded-2xl border border-solid border-[#7e7e7e] bg-white p-8 hover:scale-105 transition-transform">
         <div className="mb-4 flex flex-row">
           <img className="mr-4 inline-block h-16 w-16 object-cover rounded-full" src={item.app_logo || '/default-logo.jpg'} alt="App Logo" />
@@ -17,6 +16,6 @@ export default function GridItem({ item }) {
             {item.description}</p>
         </div>
       </div>
-      </a>
+      </Link>
   )
 }

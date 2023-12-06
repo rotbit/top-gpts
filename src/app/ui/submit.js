@@ -4,7 +4,7 @@ export default function SubmitPage() {
             <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
                 <div className="grid items-center gap-8 sm:gap-20 lg:grid-cols-2">
                     <div className="flex max-w-2xl flex-col items-start">
-                        <h2 className="mb-6 text-3xl font-bold md:text-5xl">Let's build something exciting together!</h2>
+                        <h2 className="mb-6 text-3xl font-bold md:text-5xl">Build something exciting together!</h2>
                         <p className="mb-6 max-w-lg pb-4 text-[#636262]">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus</p>
                         <p className="mb-8 max-w-lg text-[#647084]">Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit amet luctus venenatis elit ut aliquam, purus sit amet luctus venenatis</p>
                         <div className="flex">
